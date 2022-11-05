@@ -30,5 +30,46 @@ the Rust ecosystem.
 
 •	 The Rust Language Server powers Integrated Development Environment.
 (IDE) integration for code completion and inline error messages.
+
 By using these and other tools in the Rust ecosystem, developers can be
 productive while writing systems-level code.
+
+
+### Students
+
+Rust is for students and those who are interested in learning about systems
+concepts. Using Rust, many people have learned about topics like operating systems development. The community is very welcoming and happy to
+answer student questions. Through efforts such as this book, the Rust teams
+want to make systems concepts more accessible to more people, especially
+those new to programming.
+
+
+### Companies
+
+Hundreds of companies, large and small, use Rust in production for a variety
+of tasks. Those tasks include command line tools, web services, DevOps
+tooling, embedded devices, audio and video analysis and transcoding,
+cryptocurrencies, bioinformatics, search engines, Internet of Things applications, machine learning, and even major parts of the Firefox web browser.
+
+
+### Open Source Developers
+
+Rust is for people who want to build the Rust programming language, community, developer tools, and libraries. We’d love to have you contribute to
+the Rust language.
+
+
+### People Who Value Speed and Stability
+
+Rust is for people who crave speed and stability in a language. By speed,
+we mean the speed of the programs that you can create with Rust and the
+speed at which Rust lets you write them. The Rust compiler’s checks ensure
+stability through feature additions and refactoring. This is in contrast to the
+brittle legacy code in languages without these checks, which developers are
+often afraid to modify. By striving for zero-cost abstractions, higher-level
+features that compile to lower-level code as fast as code written manually,
+Rust endeavors to make safe code be fast code as well.
+The Rust language hopes to support many other users as well; those
+mentioned here are merely some of the biggest stakeholders. Overall,
+Rust’s greatest ambition is to eliminate the trade-offs that programmers
+have accepted for decades by providing safety and productivity, speed and
+ergonomics. Give Rust a try and see if its choices work for you.
