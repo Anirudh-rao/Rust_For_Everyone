@@ -14,8 +14,9 @@ fn main() {
 
 
     //Creating Guess
-    let  guess:u32 = guess.trim().parse().expect("Please type a Number");
+    let mut guess = String::new();
     io::stdin().read_line(&mut guess).expect("Failed To Read Line");
+    let  guess:u32 = guess.trim().parse().expect("Please type a Number");
     println!("You Guessed :{}", guess);
 
 
