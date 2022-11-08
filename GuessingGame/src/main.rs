@@ -12,7 +12,7 @@ fn main() {
     println!("The Secret Number is :{}", secret_number);
 
 
-
+    loop{
     //Creating Guess
     let mut guess = String::new();
     io::stdin().read_line(&mut guess).expect("Failed To Read Line");
@@ -26,5 +26,6 @@ fn main() {
         Ordering::Greater => println!("Too Big"),
         Ordering::Equal => println!("You Win!"),
     }
-
+   
+    }
 }
