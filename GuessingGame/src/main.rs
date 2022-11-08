@@ -16,7 +16,10 @@ fn main() {
     //Creating Guess
     let mut guess = String::new();
     io::stdin().read_line(&mut guess).expect("Failed To Read Line");
-    let  guess:u32 = guess.trim().parse().expect("Please type a Number");
+    let  guess:u32 = guess.trim().parse(){
+        Ok(num) => num;
+        Err(_) => continue,
+    }
     println!("You Guessed :{}", guess);
 
 
@@ -24,8 +27,11 @@ fn main() {
     match guess.cmp(&secret_number){
         Ordering::Less => println!("Too Small!"),
         Ordering::Greater => println!("Too Big"),
-        Ordering::Equal => println!("You Win!"),
-    }
+        Ordering::Equal => {
+            println!("You Win!");
+            break;
+        }
+    } 
    
     }
 }
